@@ -1,0 +1,527 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 20px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.login-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.category-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    text-decoration: none;
+    flex-wrap: wrap;
+    background-color: rgb(0, 142, 151);
+}
+
+.category-li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: flex;
+}
+
+.category-li a:hover {
+    background-color: rgb(94, 23, 235);
+}
+
+.home-main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-section p {
+    font-size: 1.5em;
+}
+
+.home-new {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    max-width: 914px;
+}
+
+.home-images {
+    width: 200px;
+    height: 150px;
+}
+
+.categories-main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories-section p {
+    font-size: 1.5em;
+}
+
+.categories-new {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    max-width: 914px;
+}
+
+.categories-images {
+    width: 200px;
+    height: 150px;
+}
+
+.main-wall {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.wallpapers-images {
+    width: 400px;
+    height: 300px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.right-p {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin: 0;
+}
+
+.tb-down {
+    border: 2px solid black;
+}
+
+.login-table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-menu {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+.login-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu button {
+    margin-bottom: 5px;
+}
+
+.addNew {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+.addNewWrong {
+    text-decoration: none;
+    color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.addNewForm {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.addNewForm form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.table tbody {
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table th {
+    border: 1px solid black;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.table tr:hover {
+    background-color: lightgray;
+}
+
+.wall-table {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.wall-table tbody {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.wall-table th {
+    border: 1px solid black;
+    font-weight: lighter;
+    padding: 6px;
+}
+
+.table button {
+    background: rgb(94, 23, 235);
+    border: 1px solid rgb(94, 23, 235);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    outline: 0;
+    padding: 5px 7px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.table button:hover,
+.table button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: rgb(94, 23, 235);
+}
+
+.table button:active {
+    opacity: .5;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listMain {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.page {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4px;
+    text-decoration: none;
+}
+
+.info {
+    border: 1px solid black;
+}
+
+.wallpapers-button {
+    background: rgb(94, 23, 235);
+    border: 1px solid rgb(94, 23, 235);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.wallpapers-button:hover,
+.wallpapers-button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: rgb(94, 23, 235);
+}
+
+.wallpapers-button:active {
+    opacity: .5;
+}
+
+.login-button {
+    background: rgb(94, 23, 235);
+    border: 1px solid rgb(94, 23, 235);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 90px;
+}
+
+.login-button:hover,
+.login-button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: rgb(94, 23, 235);
+}
+
+.login-button:active {
+    opacity: .5;
+}
+
+.log-btn {
+    background: rgb(94, 23, 235);
+    border: 1px solid rgb(94, 23, 235);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    outline: 0;
+    padding: 6px 8px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.log-btn:hover,
+.log-btn:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: rgb(94, 23, 235);
+}
+
+.log-btn :active {
+    opacity: .5;
+}
+
+.btn-add {
+    background: rgb(0, 142, 151);
+    border: 1px solid rgb(0, 142, 151);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    outline: 0;
+    padding: 6px 8px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.btn-add:hover,
+.btn-add:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: rgb(0, 142, 151);
+}
+
+.btn-add:active {
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .category-ul {
+        padding: 0;
+        font-size: 1.2em;
+    }
+
+    .login-button {
+        font-size: 12px;
+        padding: 8px 10px;
+        width: 60px;
+        height: 40px;
+    }
+
+    .wallpapers-images {
+        width: 300px;
+        height: 200px;
+    }
+
+    .right-p {
+        font-size: 15px;
+    }
+
+    .login-menu {
+        font-size: 15px;
+    }
+
+    .table button {
+        padding: 3px 5px;
+    }
+
+    .wall-table {
+        font-size: 10px;
+    }
+
+    .wall-table th {
+        padding: 4px;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    .category-ul {
+        padding: 0;
+        font-size: 0.9em;
+    }
+
+    .login-button {
+        font-size: 9px;
+        padding: 8px 10px;
+        width: 50px;
+        height: 30px;
+    }
+
+    .wallpapers-images {
+        width: 180px;
+        height: 140px;
+    }
+
+    .right-p {
+        font-size: 9px;
+    }
+
+    .login-menu {
+        font-size: 9px;
+    }
+
+    .table th {
+        font-size: 11px;
+    }
+
+    .table button {
+        padding: 3px 5px;
+        font-size: 10px;
+    }
+
+    .wall-table {
+        font-size: 8px;
+    }
+
+    .wallpapers-button {
+        padding: 5px 7px;
+    }
+}
